@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>KARNA INFOTEC</title>  
+      <link rel="stylesheet" href="style.css"> 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">"
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="karna.html"><img src="images/20190321185607!KARNA_logo_2017.png"width="250px" alt="logo"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="karna.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="service.html">SERVICE</a></li>
+                        <li><a href="contact .html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+            </nav>
+           <h1>contact us</h1>
+        </section>
+<!-------Contact us -----> 
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577.9215545011705!2d77.5482688945313!3d12.98609045200574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded3d78dc49%3A0x627c5d77e5360d59!2s36%2C%206th%20Main%20Rd%2C%20Mahaganapathi%20Nagar%2C%206th%20phase%201st%20stage%2C%20Basaveshwara%20Nagar%20Block%204%2C%20Bovi%20Colony%2C%20Rajajinagar%2C%20Bengaluru%2C%20Karnataka%20560079!5e0!3m2!1sen!2sin!4v1711069853967!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+</section>  
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            
+            <div>
+                <i class="fa fa-home"></i> 
+                <span>
+                    <h5>xyz chor road bangalore </h5>
+                    <p>xyz chor road bangalore </p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i> 
+                <span>
+                    <h5>+91 7845453504 </h5>
+                    <p>monday to saterday 10am to 6pm  </p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i> 
+                <span>
+                    <h5>info@karna management </h5>
+                    <p>email us your query </p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name"required>
+                <input type="email" name="email" placeholder="Enter email address "required>
+                <input type="text" name="subject" placeholder="Enter your subject"required>
+                <textarea rows="8" name="Message" required></textarea>
+                 <button type="submit" class="hero-btn red-btn"> Send Message</button>
+
+            </form>
+
+
+
+        </div>
+    </div>
+
+</section>     
+
+
+<!-------footer----->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptates.</P>
+    <div class="icons"> 
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+    <p>MADE WITH @SHIVA</p>
+
+</section>
+
+
+
+ <!------------javascript for togle menu -------->    
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            
+            function showmenu(){
+                navlinks.style.right ="0";
+            } 
+            function hidemenu(){
+                navlinks.style.right ="-200px";
+            } 
+        </script>
+
+
+
+
+    </body>
+</html>    
